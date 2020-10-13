@@ -1,0 +1,43 @@
+body, html{
+  margin: 0px;
+  padding: 0px;
+}
+
+.mainContainer{
+  display: flex;
+  background-image: url('background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center, center;
+  height: 100%;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.audio{
+  position: fixed;
+  top: 0%;
+  left: 0%;
+}
+
+.lyrics{
+  margin-top: 10vh;
+}
+
+.lyrics * {
+  border: 0.1vmin solid #928D89;
+}
+
+.lyrics > p {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 1.1em;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.lyrics p:hover{
+  background-color: #A19B96;
+}
